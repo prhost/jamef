@@ -42,21 +42,23 @@ try {
 
     var_dump($valor_frete);
 
-    /**
-     * Dump:
-        object(stdClass)#17 (4) {
-            ["COMPONENTE"]=>
-            string(17) "TF-TOTAL DO FRETE"
-            ["IMPOSTO"]=>
-            float(251.2)
-            ["TOTAL"]=>
-            float(3629.37)
-            ["VALOR"]=>
-            float(3378.17)
-        }
-     */
-
 } catch (\Prhost\Jamef\ExceptionJamef $e) {
     var_dump($e->getMessage());
+}
+```
+
+
+Response:
+
+```
+object(stdClass)#17 (4) {
+    ["COMPONENTE"]=>
+    string(17) "TF-TOTAL DO FRETE"
+    ["IMPOSTO"]=>
+    float(251.2)
+    ["TOTAL"]=>
+    float(3629.37)
+    ["VALOR"]=>
+    float(3378.17)
 }
 ```
