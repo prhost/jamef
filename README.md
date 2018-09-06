@@ -2,6 +2,10 @@
 
 Esse pacote faclita o calculo do frete através do webservice SOAP que a Jamef fornece.
 
+Instalação:
+
+`composer install prhost/jamef`
+
 Exemplo de uso:
 
 ```php
