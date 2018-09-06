@@ -19,7 +19,7 @@ try {
 
     //Origem
     $objeto->setTiptra(1); //Tipo de transporte 1. rodoviario
-    $objeto->setCnpjcpf(07564417000126); //CNPJ origem
+    $objeto->setCnpjcpf('07564417000126'); //CNPJ origem
     $objeto->setMunori('Curitiba'); //Cidade origem. Campo obrigatório pra revenda.
     $objeto->setEstori('PR'); // UF origem
 
