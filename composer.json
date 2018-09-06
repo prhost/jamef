@@ -1,0 +1,17 @@
+{
+  "name": "prhost/jamef",
+  "description": "Calculo de frete com a Jamef",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kallef Alexandre",
+      "email": "kallef@orbitaldev.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Prhost\\Jamef\\": "src/"
+    }
+  }
+}
